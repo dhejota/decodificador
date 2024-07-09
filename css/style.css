@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500&display=swap');
+
+:root {
+    --corprincipal: #808080;
+    --corsecundaria: #B22222;
+    --cortitulo: #000000;
+}
+
+body {
+    background: var(--corsecundaria);
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cabecalho h1 {
+    color: var(--cortitulo);
+}
+
+.cabecalho img {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+.container-input {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+#input-texto {
+    flex-grow: 1;
+    font-size: 18px;
+    color: var(--cortitulo);
+    background: transparent;
+    border: 2px solid var(--cortitulo);
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid var(--cortitulo);
+    border-radius: 20px;
+    width: 350px;
+    max-width: 100%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    margin-left: auto; /* Move o elemento para a direita */
+}
+
+#output h2 {
+    text-align: center;
+    font-size: 25px;
+    color: var(--cortitulo);
+}
+
+#output span {
+    font-size: 16px;
+    text-align: center;
+}
+
+#output img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.container-bnt button,
+.btn-copiar {
+    border: 2px solid var(--cortitulo);
+    border-radius: 10px;
+    background-color: var(--cortitulo);
+    color: #ffffff;
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.container-bnt button:hover,
+.btn-copiar:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.rodape h3 {
+    font-size: 16px;
+}
+
+.icons ion-icon:hover {
+    color: var(--corsecundaria);
+}
