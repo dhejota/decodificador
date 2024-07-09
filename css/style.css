@@ -68,7 +68,7 @@ body {
     background-color: #f0f0f0;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     margin-right: 20px;
-    margin-left: auto; /* Move o elemento para a direita */
+    margin-left: auto;
 }
 
 #output h2 {
